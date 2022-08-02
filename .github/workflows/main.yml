@@ -31,6 +31,7 @@ jobs:
       - name: go to specific direcd
         run: |
          cd /usr/share
+         git init .
          git pull
 
       # Runs a set of commands using the runners shell
